@@ -104,7 +104,6 @@ public class hmap02 {
             }
         }
 
-
         public V get(K key) {
 
             int bi = hashfunction(key);
@@ -131,18 +130,17 @@ public class hmap02 {
 
         }
 
-
         public boolean isempty() {
             return n == 0;
         }
     }
 
     public static void main(String[] args) {
-            Hashmap<String,Integer> hm = new Hashmap<>();
+        Hashmap<String, Integer> hm = new Hashmap<>();
 
-        hm.put("India",100);
-        hm.put("china",50);
-        hm.put("us",44);
+        hm.put("India", 100);
+        hm.put("china", 50);
+        hm.put("us", 44);
     }
 
 }
